@@ -177,5 +177,4 @@ def get_stats():
     return jsonify({"success": True, "stats": stats, "balance": balance, "rtp": rtp})
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+app = app
